@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} style={{height: "50px"}} />
+        <img src={logo} style={{height: "50px"}} alt="logo"/>
       </header>
       <div className='content'>
       <Article headline="How 2 Germans Are Changing Lives With This Amazing Hearing Aid"
