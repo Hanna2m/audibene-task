@@ -1,9 +1,6 @@
 import content from "../images/form-place-holder.jpg"
 
-const Placeholder = (props) => {
-    const title = props.title;
-
-    return (
+const Placeholder = ({title}) => (
         <div className="placeholder">
             <p style={{paddingTop: "11px", paddingBottom: "11px", textAlign: "center", backgroundColor: "#3A3A3A", marginBottom: "0px"}}>{title}</p>
             <div id="placeholder">
@@ -12,6 +9,5 @@ const Placeholder = (props) => {
             
         </div>
     )
-}
 
 export default Placeholder
