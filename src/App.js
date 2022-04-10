@@ -15,8 +15,8 @@ function App() {
       <div className='content'>
       <Article headline="How 2 Germans Are Changing Lives With This Amazing Hearing Aid"
               subHeadline="Hear well and save. Hear today explains what requirements you have to meet."
-              avatar={avatar}
-              editor="Johannes Gauss"
+              editorAvatar={avatar}
+              editorName="Johannes Gauss"
               articleCover={cover}
               caption1="hear.com founders"
               mainText={"Dr. Marco Vietor and Paul Crusius have been creating successful businesses since college. Now they lead hear.com, the fastest growing hearing aid company in the world. This is their story.\nLet’s be honest, very few people want to wear hearing aids. Although there have been huge improvements in technology, most people don’t use them simply because they are still big and ugly. However, Dr. Marco Vietor and Paul Crusius wanted to change this perception with a revolutionary device developed by the top hearing aid engineers from Signia./nAfter many years of research and development, Signia’s (formerly Siemens) team of engineers came up with a game-changing hearing aid."}

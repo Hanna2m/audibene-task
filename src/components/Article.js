@@ -4,21 +4,7 @@ import advertImg from "../images/d_hand-ha-doubleOffer.jpg"
 import Placeholder from "./Placeholder";
 
 
-const Article = (props) => {
-
-const headline = props.headline;
-const subHeadline = props.subHeadline;
-const editorName = props.editor;
-const editorAvatar = props.avatar;
-const articleCover = props.articleCover;
-const caption1 = props.caption1;
-const caption2 = props.caption2;
-const mainText = props.mainText;
-const block2 = props.block2;
-const block3 = props.block3
-const articleImg = props.articleImg;
-const block4 = props.block4;
-
+const Article = ({headline, subHeadline, editorName, editorAvatar, articleCover, caption1, caption2, mainText, block2, block3, block4, articleImg}) => {
 const d = new Date();
 const postDate = format(d.setDate(d.getDate()-2), 'dd MMM, yyyy');
 const postDate600 = format(d.setDate(d.getDate()), 'dd/MM/yyyy');
